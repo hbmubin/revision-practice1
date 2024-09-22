@@ -3,7 +3,7 @@ import logo from "../../assets/images/images/logo.png";
 import FooterBottom from "./FooterBottom";
 const Footer = () => {
   return (
-    <footer className=" w-full">
+    <footer className="container xl:max-w-screen-xl mx-auto font-titleFont ">
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 pt-20 pb-24 border-b-[1px] border-b-black">
         <div>
           <div className="mb-8">

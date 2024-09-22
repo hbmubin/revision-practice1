@@ -11,15 +11,15 @@ function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4 overflow-hidden ">
       <Navbar></Navbar>
-      <div className="container xl:max-w-screen-xl mx-auto font-titleFont">
+      <main className="container xl:max-w-screen-xl mx-auto font-titleFont">
         <Banner></Banner>
         <Features></Features>
         <Projects></Projects>
         <Resume></Resume>
         <Testimonial></Testimonial>
         <Contact></Contact>
-        <Footer></Footer>
-      </div>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
